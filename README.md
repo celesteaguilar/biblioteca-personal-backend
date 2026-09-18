@@ -1,67 +1,66 @@
-# biblioteca-personal-backend
+\# Biblioteca Personal - Backend (Django REST Framework)
 
-Backend de la **Biblioteca Personal de Libros**, desarrollado con **Django REST Framework**.
 
-Proyecto integrador de la asignatura *Herramientas Avanzadas para el Desarrollo de Aplicaciones* (102HAD1) — Ciclo II-2026, Universidad Técnica Latinoamericana.
 
-## Repositorio relacionado
+Aplicación web Full-Stack desarrollada para la asignatura \*\*Herramientas Avanzadas para el Desarrollo de Aplicaciones\*\*.
+
+
+
+\## Repositorio relacionado
+
+
 
 Este backend se conecta con el frontend desarrollado en React:
-[biblioteca-personal-frontend](https://github.com/celesteaguilar/biblioteca-personal-frontend)
 
-## Descripción
+\[biblioteca-personal-frontend](https://github.com/celesteaguilar/biblioteca-personal-frontend)
 
-API REST que permitirá gestionar una colección personal de libros: registro de libros, autores, colecciones personalizadas y reseñas con calificación. El modelo de datos completo está detallado en la Definición Técnica del Proyecto entregada en la Evaluación 1.
 
-## Tecnologías
 
-* Python / Django
-* Django REST Framework
-* django-cors-headers
-* SQLite (entorno de desarrollo)
+\## Integrantes
 
-## Estructura del proyecto (avance actual — Sesión 2)
 
-```
-biblioteca-personal-backend/
-├── config/              # Configuración principal del proyecto Django
-├── manage.py
-├── requirements.txt
-├── .env.example
-└── .gitignore
-```
 
-> Las apps de dominio (`libros/`, `colecciones/`, `resenas/`) con sus modelos, migraciones y serializers se crearán en la Sesión 9 del cronograma ("Modularización frontend/back").
+\* Marcela Saraí Ramírez Caceres (#0700424)
 
-## Flujo de trabajo (Git)
+\* María Celeste Hernández Aguilar (#0700923)
 
-Estrategia: **GitHub Flow**. La rama `main` está protegida y requiere Pull Request con al menos 1 aprobación antes de fusionar.
 
-Convención de ramas:
 
-* `feature/nombre-funcionalidad` — nuevas funcionalidades
-* `fix/nombre-correccion` — correcciones de errores
+\## Sesión 2 - Estructura Inicial
 
-Convención de commits:
 
-* `feat:` nueva funcionalidad
-* `fix:` corrección de errores
-* `docs:` documentación
-* `refactor:` cambios de estructura sin alterar funcionalidad
-* `test:` pruebas
 
-Todo cambio a `main` pasa por un Pull Request revisado por al menos un integrante distinto al autor.
+\* Inicialización del proyecto con Django y Django REST Framework.
 
-## Instalación
+\* Configuración del directorio `config/` con settings, CORS (`django-cors-headers`) y variables de entorno (`.env`).
 
-*(Sección en construcción — se completará con instrucciones detalladas de instalación y uso conforme avance el desarrollo del proyecto.)*
+\* Las apps de dominio (`libros/`, `colecciones/`, `resenas/`) se crearán en la Sesión 9 del cronograma.
 
-## Integrantes
 
-* Marcela Saraí Ramírez Caceres
-* María Celeste Hernández Aguilar
 
-## Historial de cambios de dominio
+\## Flujo de Trabajo y Convenciones (Sesión 3)
 
-*(Si el dominio o el alcance del proyecto cambia durante el ciclo, se documentara aquí con fecha y razón.)*
+
+
+\### Ramas
+
+
+
+\* `main`: Rama principal y estable. Protegida contra pushes directos.
+
+\* `feature/<nombre>`: Ramas creadas para desarrollar nuevas características o mejoras.
+
+\* `fix/<nombre>`: Ramas para corrección de errores.
+
+
+
+\### Convención de Commits
+
+
+
+\* `feat:` para nuevas funcionalidades.
+
+\* `fix:` para corrección de errores.
+
+\* `docs:` para cambios o actualización en la documentación (`README.md`).
 
