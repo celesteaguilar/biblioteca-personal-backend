@@ -44,8 +44,9 @@ INSTALLED_APPS = [
     # Terceros (tecnologías obligatorias del proyecto)
     'rest_framework',
     'corsheaders',
-    # Las apps propias del dominio (libros, colecciones, resenas) se
-    # crearán en la Sesión 9 del cronograma ("Modularización frontend/back").
+        # Apps propias del dominio
+    'catalogo',
+    'lectura',
 ]
 
 MIDDLEWARE = [
