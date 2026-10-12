@@ -1,5 +1,35 @@
-venv/
+# === Python ===
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+
+# === Entornos virtuales ===
+venv/
+env/
+.venv/
+ENV/
+
+# === Django ===
+*.log
+local_settings.py
 db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# === Variables de entorno ===
 .env
+.env.local
+
+# === Editor / SO ===
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Testing / cobertura ===
+.coverage
+htmlcov/
+.pytest_cache/
