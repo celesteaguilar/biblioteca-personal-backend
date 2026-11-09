@@ -1,0 +1,5 @@
+[
+  {"model": "catalogo.autor", "pk": 1, "fields": {"nombre": "Gabriel Garc\u00eda M\u00e1rquez", "pais": "Colombia"}},
+  {"model": "catalogo.autor", "pk": 2, "fields": {"nombre": "George Orwell", "pais": "Reino Unido"}},
+  {"model": "catalogo.autor", "pk": 3, "fields": {"nombre": "Antoine de Saint-Exup\u00e9ry", "pais": "Francia"}}
+]
